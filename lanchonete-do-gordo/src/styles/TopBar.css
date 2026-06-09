@@ -1,0 +1,15 @@
+.top-bar-container{
+    background-color: rgba(0, 0, 0, 0.39);
+    grid-area: 1/1/2/2;
+
+    display: flex;
+}
+
+.top-bar-items{
+    background-color: white;
+    margin: 1px;
+    padding: 3px 5px;
+    font-size: 15px;
+
+    text-align: center;
+}

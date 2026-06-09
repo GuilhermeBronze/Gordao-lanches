@@ -1,14 +1,16 @@
 //import { useState } from 'react'
 
 import "./styles/App.css";
-import Header from './Header.jsx'
+import TopBar from './TopBar.jsx'
+import ExibitionMenu from './ExibitionMenu.jsx'
 
 function App() {
 
   return (
     //APP RETURN
     <>
-      <Header />
+      <TopBar />
+      <ExibitionMenu />
     </>
   );
 }

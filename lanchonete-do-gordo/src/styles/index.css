@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root{
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+
+    grid-template: 25px 1fr / 1fr;
+}
+
