@@ -1,6 +1,6 @@
 .top-bar-container{
     background-color: rgba(0, 0, 0, 0.39);
-    grid-area: 1/1/2/2;
+    grid-area: 1/1/2/4;
 
     display: flex;
 }
