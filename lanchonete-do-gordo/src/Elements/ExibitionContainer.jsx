@@ -1,4 +1,4 @@
-import './styles/ExibitionContainer.css'
+import '../styles/ExibitionContainer.css'
 
 function ExibitionContainer(){
 

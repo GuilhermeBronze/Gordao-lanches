@@ -1,11 +1,11 @@
-.top-bar-container{
-    background-color: rgba(0, 0, 0, 0.39);
-    grid-area: 1/1/2/4;
+.top-menu-container{
+    border: 2px solid black;
+    grid-area: 1/2/2/4;
 
     display: flex;
 }
 
-.top-bar-items{
+.top-menu-items{
     background-color: white;
     margin: 1px;
     padding: 3px 5px;

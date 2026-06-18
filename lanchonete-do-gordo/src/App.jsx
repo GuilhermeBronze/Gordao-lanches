@@ -1,17 +1,17 @@
 //import { useState } from 'react'
 
-import "./styles/App.css";
-import TopBar from './TopBar.jsx'
-import ExibitionMenu from './ExibitionMenu.jsx'
-import ExibitionContainer from'./ExibitionContainer.jsx'
+import "./App.css";
+import TopMenu from './Elements/TopMenu.jsx'
+import LeftMenu from './Elements/LeftMenu.jsx'
+import ExibitionContainer from'./Elements/ExibitionContainer.jsx'
 
 function App() {
 
   return (
     //APP RETURN
     <>
-      <TopBar />
-      <ExibitionMenu />
+      <TopMenu />
+      <LeftMenu />
 
       <ExibitionContainer/>
     </>

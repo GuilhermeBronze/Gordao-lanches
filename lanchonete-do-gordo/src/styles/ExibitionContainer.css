@@ -1,4 +1,4 @@
 .exibition-container{
-    background-color: rgb(106, 255, 106);
-    grid-area: 3/2/4/3;
+    border: 2px solid black;
+    grid-area: 2/2/4/3;
 }
