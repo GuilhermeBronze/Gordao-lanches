@@ -1,4 +1,15 @@
 .exibition-container{
     border: 2px solid black;
     grid-area: 2/2/4/3;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 15px;
+}
+.div-mesas{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
 }

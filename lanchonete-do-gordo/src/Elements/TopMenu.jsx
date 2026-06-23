@@ -4,10 +4,10 @@ import '../styles/TopMenu.css'
 function TopMenu() {
     return (
       <div className="top-menu-container">
-        <div className="top-menu-items">Arquivo</div>
-        <div className="top-menu-items">Financeiro</div>
-        <div className="top-menu-items">Vendas</div>
-        <div className="top-menu-items">Configurações</div>
+        <div className="top-menu-items">1</div>
+        <div className="top-menu-items">2</div>
+        <div className="top-menu-items">3</div>
+        <div className="top-menu-items">4</div>
 
       </div>
     );
