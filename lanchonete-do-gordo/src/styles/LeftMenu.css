@@ -2,3 +2,11 @@
     border: 2px solid black;
     grid-area: 1/1/4/2;
 }
+.left-menu-items:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.material-symbols-outlined{
+    margin: 15px;
+    cursor: pointer;
+}
