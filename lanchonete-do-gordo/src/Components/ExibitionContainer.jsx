@@ -1,21 +1,35 @@
+import { useState } from 'react';
 import '../styles/ExibitionContainer.css'
 import TablesAndComands from './TablesAndComands';
+import NewTablePopup from './NewTablePopup';
 
 function ExibitionContainer(){
+    
+    const [tables, setTables] = useState([]);
+    const [openTablePopup, setOpenTablePopup] = useState(false);
+
+function addTables(newTables){
+    setTables((actualTables) => [...actualTables, newTables]);
+    setOpenTablePopup(!openTablePopup);
+}
 
     return(
         <div className="exibition-container">
 
-            <div className="div-mesas">
-                
-                    <div className="tables-and-comands">
-                        <TablesAndComands />
-                    </div>
-                
-            </div>
+        {tables.map((tables) => (
+                <div className="div-mesas" key={tables.id}>
+                    <TablesAndComands tables={tables} />
+                </div>
+        ))}
 
-            <button className="add-table">Adicionar uma mesa</button>
+            <button className="add-table" onClick={() => setOpenTablePopup(true)}>Adicionar uma mesa</button>
 
+            {openTablePopup && (
+                <NewTablePopup
+                    onClose={() => setOpenTablePopup(false)}
+                    onSave={addTables}
+                />
+            )}
         </div>
     )
 }
