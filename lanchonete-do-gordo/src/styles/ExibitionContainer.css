@@ -13,6 +13,15 @@
     width: 100%;
     height: 80%;
     margin: 5px;
+
+    display: flex;
+
+}
+
+.tables-and-comands{
+    margin: 10px;
+    padding: 5px;
+    
 }
 
 .add-table{
@@ -27,4 +36,5 @@
     border: 2px solid black;
     cursor: pointer;
 }
+
 
