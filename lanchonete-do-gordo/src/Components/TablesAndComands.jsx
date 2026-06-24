@@ -5,7 +5,10 @@ function TablesAndComands(){
 
     return(
         <div className="tables">
-            cu
+            <p>Mesa: ...</p>
+            <p>Comandas: (se tiver)</p>
+            <p>Nome: (opcional)</p>
+            <p>Valor: ...</p>
         </div >
     )
 }
